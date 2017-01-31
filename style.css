@@ -1,0 +1,63 @@
+body {
+    cursor:url("Textures/cursor.cur"), auto;
+    margin: 0px;
+    color: white;
+    background: url("Textures/background1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-attachment: fixed;
+	background-size: cover
+}
+a {
+    cursor:url("Textures/cursor.cur"), auto;
+}
+h2 {
+    cursor:url("Textures/cursor.cur"), auto;
+	background: white;
+	color: black;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border: 3px #a9a9a9 solid;
+	font-family: 'boycottregular';
+	word-spacing: 22px;
+	text-align: center;
+	width: 50%;
+	float: center;
+	padding-top: 2px;
+	margin-left: 25%;
+	border-radius: 3px;
+}
+h2 a{
+    cursor:url("Textures/cursor.cur"), auto;
+	text-decoration: none;
+	color: black;
+}
+h2 a:hover {
+    cursor:url("Textures/cursor.cur"), auto;
+	text-decoration: none;
+	color: #b9b9b9;
+}
+.Textbox {
+    cursor:url("Textures/cursor.cur"), auto;
+	font-family: '';
+	background: #fff;
+	float: center;
+	padding: 10px;
+	opacity: 0.65;
+	color: black;
+	width: 70%;
+	margin-left: 15%;
+	border-radius: 5px;
+    text-decoration: none;
+    color: blue;
+}
+.Textbox a:visited{
+    text-decoration: none;
+    cursor:url("Textures/cursor.cur"), auto;
+}
+.header{
+    cursor:url("Textures/cursor.cur"), auto;
+    top: 0px;
+	width: 100%;
+	position: fixed;
+}
