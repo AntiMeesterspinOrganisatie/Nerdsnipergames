@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Games made by the nerd sniper clan.">
 <meta name="google-site-verification" content="3GWV1lWDJZNZYaG5eg8efiouk3Q9huqhA2n2IWN3kVo" />
 <meta name="keywords" content="nerd,sniper,games,nerdsnipergames,wolfkat,klokkenspelaaitzichzelf,klokken,spel,aait,zich,zelf,zichzelf,demeesterspin,anti,meesterspin,organisatie,amo,nerdsniperclan,clan">
@@ -18,10 +19,12 @@
 
 <style>
 html {
+	max-width: 100%;
 	height: 100%;
     cursor:url("Textures/cursor.cur"), auto;
 }
 body {
+	max-width: 100%;
     height: 100%;
 	position: relative;
     margin: 0px;
@@ -106,34 +109,35 @@ input {
     font-size: 16px;
     margin: 2px 2px;
     cursor: pointer;
-    width: 25%;
+    max-width: 25%;
 	}
 		.header{
+			max-width: 100%;
 			top: 0px;
-			width: 100%;
 			position: fixed;
 			z-index: 1;
 		}
 		ul {
 		    list-style-type: none;
-    		margin: 0;
-    		padding: 0;
+    		margin: 0px;
+    		padding: 0px;
     		overflow: hidden;
     		background-color: #333;
    		}
 		li {
+			max-width: 60%;
 		    float: left;
 			font-size: 150%;
 		}
-				.right {
-			float: right;
+		.right {
+		float: right;
 	}
 		li a {
 		    display: block;
 		    color: white;
 		    text-align: center;
 		    padding: 20px 20px;
-		    width: 60%;
+		    max-width: 60%;
 		    text-decoration: none;
             cursor:url("Textures/cursor.cur"), auto;
 		}
@@ -167,8 +171,10 @@ input {
 		}
 		.pagetitle{
 			color: #3399ff;
-			margin-top: 10%;
-			margin-left: 0;
+			margin-top: 15%;
+			margin-left: 0px;
+			margin-right: 10%;
+			max-size: 100%;
 			font-size: 42px;
 			text-align: center;
 			font-variant: small-caps;
@@ -190,7 +196,7 @@ input {
 		<input type="hidden" name="n" value="0">
 		<input type="hidden" name="_charset_" value="">
 		<input type="hidden" name="bcd" value="&#247;">
-		<input type="text" name="query" style="height:200%;font-size:14pt;"  size="25">
+		<input type="text" name="query" style="height:200%;font-size:14pt;"  max-size="25">
 		<input type="submit" class="button" value="search">
 		</form>
 	</td>
@@ -201,7 +207,7 @@ input {
 		<span style="color: #606060;">freefind</span></a>
 	</td>
 
-	<td style="text-align:right; font-family: Arial, Helvetica, sans-serif;	font-size: 80%; padding-top:4%;">
+	<td style="text-align:middle; font-family: Arial, Helvetica, sans-serif;	font-size: 80%; padding-top:4%;">
 		<a href="http://search.freefind.com/find.html?si=73846679&amp;pid=a">advanced</a>
 	</td>
 </tr>

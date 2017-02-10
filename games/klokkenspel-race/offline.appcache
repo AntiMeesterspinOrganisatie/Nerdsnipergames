@@ -1,11 +1,11 @@
 ﻿CACHE MANIFEST
-#1486385152
+#1486740018
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
 images/backgroundtile.png
 images/player-sheet0.png
-images/solidtile.png
+images/movingsolidtile.png
 images/jumpthrutile.png
 images/hole-sheet0.png
 images/sprite-sheet0.png
@@ -18,6 +18,12 @@ images/finish.png
 images/win.png
 images/phonecontrolbackwards-sheet0.png
 images/tijmensbestehuisdier-sheet0.png
+images/obstakel1-sheet0.png
+images/grond-sheet0.png
+images/morganfreeman-sheet0.png
+images/morganfreeman-sheet1.png
+images/lazermond-sheet0.png
+images/lazer-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
