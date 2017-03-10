@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1487942310
+#1489149572
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -27,6 +27,7 @@ images/laser-sheet0.png
 images/backgound-sheet0.png
 images/obstakelerinop2-sheet0.png
 images/tijmenlievelingsspeeltje-sheet0.png
+images/level1-sheet0.png
 media/untitled%20song%20(1).m4a
 media/2music.ogg
 media/untitled%20song.m4a
@@ -39,5 +40,9 @@ icon-114.png
 icon-128.png
 icon-256.png
 loading-logo.png
+c2mp-net.js
+c2mp-peer.js
+c2mp.js
+waker.js
 NETWORK:
 *
